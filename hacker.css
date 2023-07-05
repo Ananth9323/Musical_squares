@@ -1,0 +1,47 @@
+body {
+  text-align: center;
+  background-color: #2E0249;
+  background-image: linear-gradient(#570A57, #A91079);
+}
+
+#level-title {
+  font-family: serif;
+  font-size: 5rem;
+  margin:  2% 5% 2% 5%;
+  color: #FEF2BF;
+}
+
+.container {
+  display: block;
+  width: 50%;
+  margin: auto;
+
+}
+
+.btn {
+  margin: 10px;
+  display: inline-block;
+  height: 80px;
+  width: 80px;
+  border: 2px solid black;
+  border-radius: 20%;
+}
+
+.game-over {
+  background-color: red;
+  opacity: 0.8;
+}
+
+.btn {
+  background-color: #EF9F9F;
+}
+
+.pressed {
+  box-shadow: 0 0 20px white;
+  background-color: grey;
+}
+
+.pressed1 {
+  box-shadow: 0 3px 4px 0 #DBEDF3;
+  opacity: 0.5;
+}
